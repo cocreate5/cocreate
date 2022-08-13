@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <title>Co-create Funding Organisation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            body{
+                background-image: url(images/bk.jpg);
+               background-repeat: no-repeat ;
+                height: 50%;
+                background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+            }
+            
+            
+            .div1{
+                width: 350px;
+                margin:auto;
+                margin:10 0 0 450px;
+                overflow:hidden;
+                padding:75px;
+                background-color:#b3ffda;
+            }
+            h2{
+                text-align: center;
+                padding: 10px;
+                color:black;
+            }
+            label{
+                color:black;
+                width:400px;
+                padding-left: 10px;
+                font-family:roboto slab;
+            }
+            .inputtext{
+                width: 300px;
+                height: 30px;
+                border:none;
+                border-radius: 10px;
+                padding-left: 8px;
+            }
+            #logbutton{
+                width: 100px;
+                height:30px;
+                border: none;
+                border-radius: 15px;
+                padding-left: 1px;
+                color:black;
+                font-size:16px;
+            }
+
+        
+        </style>
+    </head>
+    <body>
+        <h2>Registation</h2><br>
+        <div class="div1" style="border-color: rgb(130, 126, 126); border-width:5px; border-style:double; border-radius: 10px;">
+            
+            
+        <form  action="login" name="web" method="post">
+        <label>First Name</label>
+        <input type="text" class="inputtext" name="FirstName" placeholder="Enter your First Name"><br><br> 
+        <label>Last Name</label>
+        <input type="text" class="inputtext" name="LastName" placeholder="Enter your Last Name"><br><br>
+        <label>Email</label>
+        <input type="email" class="inputtext" name="email" placeholder="Enter your Email Address"><br><br>
+        <label>Contact Number</label>
+        <input type="number" class="inputtext" name="number" placeholder="Phone number"><br><br>     
+        <label>UserName</label>
+        <input type="text" class="inputtext" name="Name" placeholder="Username"><br><br>
+        <label>Password</label>
+        <input type="password" class="inputtext" name="password" placeholder="password"><br><br>
+        <input type="button" name="login" id="logbutton" value="Register" width="300px"><br>
+    
+        </form>
+        </div>
+    </body>
+</html>

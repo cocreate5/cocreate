@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEBBIE CREATIONS</title>
+    <style>
+   *{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+}
+
+header{
+    background-image:url("img/bk.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+ul{
+    list-style:none;
+    margin-top:25px;
+    float:right;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding:5px 20px;
+    transition:0.6s ease;
+    border:1px solid transparent;
+    
+
+}
+ul li a:hover{
+    background-color:#fff;
+    color:black;
+
+
+}
+
+.logo img{
+    float:left;
+    width:90px;
+    border-radius:10px;
+    margin-top:10px;
+    height:auto;
+    position: absolute;
+    top:0;
+    left:1;
+
+}
+
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+
+ul li.active a{
+    background-color:black;
+    color:white;
+    border-radius:2px;
+}
+
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:black;
+    transform:translate(-50%,-50%);
+}
+
+.title h1{
+    color:black;
+    font-size:70px;
+
+
+}
+
+.button{
+   position:absolute;
+   top:62%;
+   left:50%;
+   transform:translate(-50%,-50%);
+
+}
+
+.btn{
+    border:1px solid white;
+    padding:10px 30px;
+    color:black;
+    font-weight:400;
+    text-decoration:none;
+    transition:0.6s ease;
+}
+
+.btn:hover{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    
+}
+.web{
+    color:black;
+    font-size:40px;
+}
+
+
+
+
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="main">
+        <div class="logo"><img src="img/ssss.jpg" /></div>
+        <ul>
+          <li class="active"><a href="#"> Home</a></li>
+          <li class="active"><a href="#"> Services</a></li>
+          <li class="active"><a href="#"> About</a></li>
+          <li class="active"><a href="#"> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="title">
+        <h1 class="web" width="100%">CO-CREATE</h1>
+      </div>
+
+      <div class="button">
+        <a href="#" class="btn" onclick="">Login</a>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+    </header>
+  </body>
+</html>
